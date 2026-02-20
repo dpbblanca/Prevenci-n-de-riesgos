@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prevención de Riesgos Psicosociales - Corporativo</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Lora:wght@700&family=Quicksand:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <style>
+        :root {
+            --blanco-puro: #ffffff;
+            --blanco-roto: #fbfbfb;
+            --azul-salud: #5d8aa8;
+            --gris-neutral: #e2e8f0;
+            --dorado-exito: #d3b35f;
+            --verde-accion: #84a98c;
+            --gris-verdoso: #4a5d4e;
+            --font-serif: 'Lora', serif;
+            --font-round: 'Quicksand', sans-serif;
+            --font-hand: 'Dancing Script', cursive;
+        }
+
+        * { box-sizing: border-box; }
+        body { background-color: #f0f2f5; margin: 0; padding: 40px 0; display: flex; flex-direction: column; align-items: center; gap: 60px; }
+        
+        .slide-container { 
+            width: 1280px; height: 720px; background-color: var(--blanco-puro); border-radius: 4px; 
+            box-shadow: 0 4px 30px rgba(0,0,0,0.05); overflow: hidden; position: relative;
+            display: flex; flex-direction: column; padding: 80px; font-family: var(--font-round);
+            color: var(--gris-verdoso); page-break-after: always;
+        }
+
+        .manuscrita { font-family: var(--font-hand); color: var(--dorado-exito); font-size: 38px; display: block; margin-bottom: -10px; }
+        h1, h2 { font-family: var(--font-serif); color: var(--gris-verdoso); margin: 0; font-weight: 700; }
+        h1 { font-size: 72px; line-height: 1.1; }
+        h2 { font-size: 48px; margin-bottom: 20px; border-bottom: 2px solid var(--gris-neutral); display: inline-block; padding-bottom: 10px; }
+        
+        .info-card { background: var(--blanco-roto); padding: 30px; border-radius: 15px; border-left: 8px solid var(--azul-salud); margin-bottom: 20px; }
+        .grid-3 { display: grid; grid-template-columns: repeat(3, 1fr); gap: 30px; margin-top: 20px; }
+    </style>
+</head>
+<body>
+
+<div class="slide-container">
+    <div style="margin-top: auto; margin-bottom: auto; text-align: center;">
+        <span class="manuscrita">Salud y Seguridad</span>
+        <h1>Prevención de Riesgos <br>Psicosociales</h1>
+        <div style="width: 150px; height: 3px; background: var(--dorado-exito); margin: 40px auto;"></div>
+        <p style="font-size: 26px;">Protegiendo el bienestar integral del equipo.</p>
+    </div>
+</div>
+
+<div class="slide-container">
+    <h2>¿Qué son los Riesgos Psicosociales?</h2>
+    <div style="display: flex; gap: 50px; align-items: center; margin-top: 30px;">
+        <div style="flex: 1;">
+            <p>Son factores de la <strong>organización del trabajo</strong> que afectan a la salud a través de mecanismos psicológicos y fisiológicos.</p>
+            <div class="info-card" style="border-left-color: var(--verde-accion);">
+                <p>No son "problemas personales", sino deficiencias en el diseño o gestión laboral que generan estrés y fatiga crónica.</p>
+            </div>
+        </div>
+        <div style="flex: 1; text-align: center;">
+            <i class="fa-solid fa-shield-heart" style="font-size: 200px; color: var(--azul-salud); opacity: 0.2;"></i>
+        </div>
+    </div>
+</div>
+
+<div class="slide-container">
+    <span class="manuscrita">Áreas de Acción</span>
+    <h2>Principales Factores de Riesgo</h2>
+    <div class="grid-3">
+        <div class="info-card">
+            <h3 style="font-family: var(--font-serif); color: var(--azul-salud);">Carga Mental</h3>
+            <p style="font-size: 18px;">Exceso de información, presión de tiempo y demandas cognitivas constantes.</p>
+        </div>
+        <div class="info-card" style="border-left-color: var(--dorado-exito);">
+            <h3 style="font-family: var(--font-serif); color: var(--dorado-exito);">Autonomía</h3>
+            <p style="font-size: 18px;">Falta de control sobre las tareas, los métodos y la toma de decisiones.</p>
+        </div>
+        <div class="info-card" style="border-left-color: var(--verde-accion);">
+            <h3 style="font-family: var(--font-serif); color: var(--verde-accion);">Apoyo Social</h3>
+            <p style="font-size: 18px;">Relaciones deficientes con jefes o compañeros y falta de claridad en el rol.</p>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
